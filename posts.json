@@ -1,0 +1,25 @@
+{
+  "featuredPosts": [
+    {
+      "title": "Amazing Wildlife Adventures",
+      "date": "November 21, 2025",
+      "text": "Explore the beauty of wildlife from all over the world. Stunning photos, tips, and more!",
+      "img": "https://dummyimage.com/850x350/dee2e6/6c757d.jpg",
+      "link": "#"
+    },
+    {
+      "title": "Top 10 Natural Wonders",
+      "date": "October 15, 2025",
+      "text": "Discover the most breathtaking natural wonders and how to visit them safely.",
+      "img": "https://dummyimage.com/850x350/dee2e6/6c757d.jpg",
+      "link": "#"
+    },
+    {
+      "title": "Eco-Friendly Travel Tips",
+      "date": "September 10, 2025",
+      "text": "Learn how to travel sustainably and leave a positive impact on nature.",
+      "img": "https://dummyimage.com/850x350/dee2e6/6c757d.jpg",
+      "link": "#"
+    }
+  ]
+}
