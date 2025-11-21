@@ -27,8 +27,34 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#!">Animals</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#!">Natural World</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="animalsDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Animals
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="animalsDropdown">
+                            <li><a class="dropdown-item" href="animals/asia.html">Asia</a></li>
+                            <li><a class="dropdown-item" href="animals/africa.html">Africa</a></li>
+                            <li><a class="dropdown-item" href="animals/north-america.html">North America</a></li>
+                            <li><a class="dropdown-item" href="animals/south-america.html">South America</a></li>
+                            <li><a class="dropdown-item" href="animals/europe.html">Europe</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="natureDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Natural World
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="natureDropdown">
+                        <li><a class="dropdown-item" href="Nature/lakes.html">Lakes</a></li>
+                        <li><a class="dropdown-item" href="Nature/mountains.html">Mountains</a></li>
+                        <li><a class="dropdown-item" href="Nature/waterfalls.html">Waterfalls</a></li>
+                        <li><a class="dropdown-item" href="Nature/rivers.html">Rivers</a></li>
+                        <li><a class="dropdown-item" href="Nature/forests.html">Forests</a></li>
+                        <li><a class="dropdown-item" href="Nature/deserts.html">Deserts</a></li>
+                        <li><a class="dropdown-item" href="Nature/glaciers.html">Glaciers</a></li>
+                        <li><a class="dropdown-item" href="Nature/valleys.html">Valleys</a></li>
+                    </ul>
+                </li>
                     <li class="nav-item"><a class="nav-link" href="#">Quizzes</a></li>
                 </ul>
             </div>
@@ -67,21 +93,20 @@
                 </div>
                 <!-- Categories widget-->
                 <div class="card mb-4">
-                    <div class="card-header">Categories</div>
+                    <div class="card-header">Continents</div>
                     <div class="card-body">
                         <div class="row">
                             <div class="col-sm-6">
                                 <ul class="list-unstyled mb-0">
-                                    <li><a href="#!">Web Design</a></li>
-                                    <li><a href="#!">HTML</a></li>
-                                    <li><a href="#!">Freebies</a></li>
+                                    <li><a href="#!">North America</a></li>
+                                    <li><a href="#!">South America</a></li>
                                 </ul>
                             </div>
                             <div class="col-sm-6">
                                 <ul class="list-unstyled mb-0">
-                                    <li><a href="#!">JavaScript</a></li>
-                                    <li><a href="#!">CSS</a></li>
-                                    <li><a href="#!">Tutorials</a></li>
+                                    <li><a href="#!">Asia</a></li>
+                                    <li><a href="#!">Europe</a></li>
+                                    <li><a href="#!">Africa</a></li>
                                 </ul>
                             </div>
                         </div>

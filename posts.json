@@ -1,27 +1,124 @@
 {
-  "featuredPosts": [
-    {
-      "title": "Amazing Wildlife Adventures",
-      "date": "November 21, 2025",
-      "text": "Explore the beauty of wildlife from all over the world. Stunning photos, tips, and more!",
-      "img": "https://dummyimage.com/850x350/dee2e6/6c757d.jpg",
-      "link": "#"
-    }
-  ],
-  "posts": [
-    {
-      "title": "Forest Conservation Tips",
-      "date": "November 10, 2025",
-      "text": "Learn how you can help conserve forests in your area.",
-      "img": "https://dummyimage.com/700x350/dee2e6/6c757d.jpg",
-      "link": "#"
-    },
-    {
-      "title": "Birdwatching Essentials",
-      "date": "October 25, 2025",
-      "text": "Everything you need to start birdwatching like a pro.",
-      "img": "https://dummyimage.com/700x350/dee2e6/6c757d.jpg",
-      "link": "#"
-    }
-  ]
+    "posts": [
+        {
+            "title": "Did You Know? Dolphins Have Names",
+            "content": "Dolphins have unique whistles that act like names, allowing them to call each other individually.",
+            "image": "assets/images/dolphin.jepg",
+            "date": "2025-11-21"
+        },
+        {
+            "title": "Did You Know? Octopuses Have Three Hearts",
+            "content": "Octopuses have three hearts. Two pump blood to the gills and one pumps it to the rest of the body.",
+            "image": "images/octopus.jpg",
+            "date": "2025-11-20"
+        },
+        {
+            "title": "Did You Know? Elephants Can Hear With Their Feet",
+            "content": "Elephants detect subsonic vibrations through their feet, allowing long-distance communication.",
+            "image": "images/elephant.jpg",
+            "date": "2025-11-19"
+        },
+        {
+            "title": "Did You Know? A Group of Flamingos Is Called a 'Flamboyance'",
+            "content": "Flamingos gather in large groups called flamboyances, sometimes containing thousands of birds.",
+            "image": "images/flamingo.jpg",
+            "date": "2025-11-18"
+        },
+        {
+            "title": "Did You Know? Sea Otters Hold Hands While Sleeping",
+            "content": "Sea otters hold hands in floating groups called 'rafts' to prevent drifting apart while they sleep.",
+            "image": "images/sea-otter.jpg",
+            "date": "2025-11-17"
+        },
+        {
+            "title": "Did You Know? Cows Have Best Friends",
+            "content": "Cows form close bonds with certain herd mates and become stressed when separated from them.",
+            "image": "images/cow.jpg",
+            "date": "2025-11-16"
+        },
+        {
+            "title": "Did You Know? Penguins Propose With Pebbles",
+            "content": "Male penguins present a pebble to a female as a way of proposing, and she accepts it as a gift.",
+            "image": "images/penguin.jpg",
+            "date": "2025-11-15"
+        },
+        {
+            "title": "Did You Know? Turtles Can Breathe Through Their Butts",
+            "content": "Some turtles can absorb oxygen directly through specialized areas near their cloaca during hibernation underwater.",
+            "image": "images/turtle.jpg",
+            "date": "2025-11-14"
+        },
+        {
+            "title": "Did You Know? Wombat Poop Is Cube-Shaped",
+            "content": "Wombats produce cube-shaped feces to mark territory without it rolling away.",
+            "image": "images/wombat.jpg",
+            "date": "2025-11-13"
+        },
+        {
+            "title": "Did You Know? Sloths Can Hold Their Breath Longer Than Dolphins",
+            "content": "Sloths can slow their heart rate and hold their breath for up to 40 minutes underwater, longer than dolphins.",
+            "image": "images/sloth.jpg",
+            "date": "2025-11-12"
+        },
+        {
+            "title": "Did You Know? Owls Can Rotate Their Heads 270°",
+            "content": "Owls have extra neck vertebrae allowing them to rotate their heads up to 270 degrees without injury.",
+            "image": "images/owl.jpg",
+            "date": "2025-11-11"
+        },
+        {
+            "title": "Did You Know? Starfish Can Regrow Arms",
+            "content": "Starfish can regenerate lost arms, and in some cases, an entire new starfish can grow from one arm.",
+            "image": "images/starfish.jpg",
+            "date": "2025-11-10"
+        },
+        {
+            "title": "Did You Know? Horses Sleep Standing Up",
+            "content": "Horses can lock their leg joints to sleep while standing, though they lie down for deep sleep occasionally.",
+            "image": "images/horse.jpg",
+            "date": "2025-11-09"
+        },
+        {
+            "title": "Did You Know? Kangaroos Cannot Walk Backwards",
+            "content": "Due to their muscular tail and large feet, kangaroos are unable to move backward easily.",
+            "image": "images/kangaroo.jpg",
+            "date": "2025-11-08"
+        },
+        {
+            "title": "Did You Know? Bees Can Recognize Human Faces",
+            "content": "Bees can learn to recognize and remember human faces, which helps them navigate and identify flowers.",
+            "image": "images/bee.jpg",
+            "date": "2025-11-07"
+        },
+        {
+            "title": "Did You Know? Crocodiles Cannot Stick Out Their Tongues",
+            "content": "Crocodiles’ tongues are attached to the roof of their mouths, making it impossible for them to stick them out.",
+            "image": "images/crocodile.jpg",
+            "date": "2025-11-06"
+        },
+        {
+            "title": "Did You Know? Giraffes Have Blue Tongues",
+            "content": "Giraffes have dark blue or purple tongues, which help protect against sunburn while feeding.",
+            "image": "images/giraffe.jpg",
+            "date": "2025-11-05"
+        },
+        {
+            "title": "Did You Know? Chameleons Can Move Eyes Independently",
+            "content": "Chameleons can rotate and focus their eyes independently to observe two different objects at once.",
+            "image": "images/chameleon.jpg",
+            "date": "2025-11-04"
+        },
+        {
+            "title": "Did You Know? Frogs Drink Through Their Skin",
+            "content": "Frogs can absorb water directly through their skin, so they don’t need to drink using their mouths.",
+            "image": "images/frog.jpg",
+            "date": "2025-11-03"
+        },
+        {
+            "title": "Did You Know? Rabbits Have Nearly 360° Vision",
+            "content": "Rabbits’ large eyes allow them to see nearly all around them, with only a small blind spot in front of their noses.",
+            "image": "images/rabbit.jpg",
+            "date": "2025-11-02"
+        }
+    ]
 }

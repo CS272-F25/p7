@@ -1,69 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Animals of Asia</title>
-    <link rel="icon" type="image/x-icon" href="../assets/favicon.ico" />
-    <link href="../css/styles.css" rel="stylesheet" />
-    <link href="../css/header.css" rel="stylesheet" />
-    <link href="../css/sidebar.css" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asia Wildlife</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/animals.css"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-
 <body>
-    <!-- Navbar: 可以直接复制 homepage 的 navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-            <a class="navbar-brand" href="../index.html">WonderWild</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Animals
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item active" href="asia.html">Asia</a></li>
-                            <li><a class="dropdown-item" href="africa.html">Africa</a></li>
-                            <li><a class="dropdown-item" href="north-america.html">North America</a></li>
-                            <li><a class="dropdown-item" href="south-america.html">South America</a></li>
-                            <li><a class="dropdown-item" href="europe.html">Europe</a></li>
-                            <li><a class="dropdown-item" href="australia.html">Australia</a></li>
-                            <li><a class="dropdown-item" href="antarctica.html">Antarctica</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item"><a class="nav-link" href="#!">Natural World</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Quizzes</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
 
-    <header class="py-5 mb-4 header-image">
-        <div class="container">
-            <div class="text-center my-5 text-white">
-                <h1 class="fw-bolder">Animals of Asia</h1>
-                <p class="lead mb-4">Explore the fascinating wildlife of Asia!</p>
-            </div>
-        </div>
-    </header>
-
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
-        <p>这里可以放亚洲动物的内容，如图片、介绍和小知识。</p>
-    </div>
+        <a class="navbar-brand" href="../index.html">WonderWild</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <footer class="py-5 bg-dark">
-        <div class="container">
-            <p class="m-0 text-center text-white">Copyright &copy; WonderWild 2025</p>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+
+                <!-- Animals Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" href="#" id="animalsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Animals
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="animalsDropdown">
+                        <li><a class="dropdown-item active" href="asia.html">Asia</a></li>
+                        <li><a class="dropdown-item" href="north-america.html">North America</a></li>
+                        <li><a class="dropdown-item" href="africa.html">Africa</a></li>
+                        <li><a class="dropdown-item" href="south-america.html">South America</a></li>
+                        <li><a class="dropdown-item" href="europe.html">Europe</a></li>
+                        <li><a class="dropdown-item" href="australia.html">Australia</a></li>
+                        <li><a class="dropdown-item" href="antarctica.html">Antarctica</a></li>
+                    </ul>
+                </li>
+
+                <!-- Natural World Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="natureDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Natural World
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="natureDropdown">
+                        <li><a class="dropdown-item" href="../Nature/lakes.html">Lakes</a></li>
+                        <li><a class="dropdown-item" href="../Nature/mountains.html">Mountains</a></li>
+                        <li><a class="dropdown-item" href="../Nature/waterfalls.html">Waterfalls</a></li>
+                        <li><a class="dropdown-item" href="../Nature/rivers.html">Rivers</a></li>
+                        <li><a class="dropdown-item" href="../Nature/forests.html">Forests</a></li>
+                        <li><a class="dropdown-item" href="../Nature/deserts.html">Deserts</a></li>
+                        <li><a class="dropdown-item" href="../Nature/glaciers.html">Glaciers</a></li>
+                        <li><a class="dropdown-item" href="../Nature/valleys.html">Valleys</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item"><a class="nav-link" href="#">Quizzes</a></li>
+            </ul>
         </div>
-    </footer>
+    </div>
+</nav>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Hero Section -->
+<section class="hero text-white text-center" style="background-image: url('../assets/asia.jpg'); background-size: cover; background-position: center; padding: 120px 0;">
+    <div class="container">
+        <h1 class="display-4 fw-bold">Awesome Asian Animals</h1>
+        <p class="lead mb-4">Meet tigers, pandas, and colorful birds from the forests and mountains!</p>
+        <a href="#animals-section" class="btn btn-primary btn-lg">Explore Animals</a>
+    </div>
+</section>
+
+<!-- Animals Grid -->
+<section id="animals-section" class="container py-5">
+    <h2 class="mb-4 text-center">Animals of Asia</h2>
+    <div class="row g-4">
+
+        <!-- Animal Card 1 -->
+        <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+                <img src="../assets/tiger.jpg" class="card-img-top" alt="Bengal Tiger">
+                <div class="card-body">
+                    <h5 class="card-title">Bengal Tiger</h5>
+                    <p class="card-text">The iconic tiger of Asia, found in India and Southeast Asia, known for its striking orange coat with black stripes.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Animal Card 2 -->
+        <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+                <img src="../assets/panda.jpg" class="card-img-top" alt="Giant Panda">
+                <div class="card-body">
+                    <h5 class="card-title">Giant Panda</h5>
+                    <p class="card-text">Native to China, pandas are beloved for their distinctive black-and-white fur and bamboo diet.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Animal Card 3 -->
+        <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+                <img src="../assets/orangutan.jpg" class="card-img-top" alt="Orangutan">
+                <div class="card-body">
+                    <h5 class="card-title">Orangutan</h5>
+                    <p class="card-text">Intelligent primates living in the rainforests of Borneo and Sumatra, with long reddish hair.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Animal Card 4 -->
+        <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+                <img src="../assets/elephant.jpg" class="card-img-top" alt="Asian Elephant">
+                <div class="card-body">
+                    <h5 class="card-title">Asian Elephant</h5>
+                    <p class="card-text">Smaller than African elephants, these gentle giants roam forests and grasslands across Asia.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Animal Card 5 -->
+        <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+                <img src="../assets/snow-leopard.jpg" class="card-img-top" alt="Snow Leopard">
+                <div class="card-body">
+                    <h5 class="card-title">Snow Leopard</h5>
+                    <p class="card-text">Elusive mountain cats adapted to cold, rocky ranges of Central and South Asia.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Animal Card 6 -->
+        <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+                <img src="../assets/red-panda.jpg" class="card-img-top" alt="Red Panda">
+                <div class="card-body">
+                    <h5 class="card-title">Red Panda</h5>
+                    <p class="card-text">Small, tree-dwelling mammals with reddish fur, found in the Himalayas and southwestern China.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- Ecosystem Sections -->
+<section class="ecosystem py-5 bg-light">
+    <div class="container">
+        <h2 class="mb-4 text-center">Explore Ecosystems</h2>
+        <div class="row g-4">
+            <div class="col-md-6">
+                <img src="../assets/himalayas.jpg" alt="Himalayas" class="img-fluid rounded mb-2">
+                <h3>Mountains</h3>
+                <p>Home to diverse species from snow leopards to Himalayan monals, spanning the Himalayas and other Asian ranges.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="../assets/borneo-rainforest.jpg" alt="Borneo Rainforest" class="img-fluid rounded mb-2">
+                <h3>Rainforests</h3>
+                <p>Lush forests sheltering orangutans, tigers, and exotic birds in Southeast Asia.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="py-5 bg-dark text-white text-center">
+    <p>Copyright &copy; WonderWild 2025</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>
