@@ -30,7 +30,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="Quizzes.html">Quizzes</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="quizzes.html">Quizzes</a></li>
                     <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
                 </ul>
             </div>
@@ -68,7 +68,7 @@
                             <option value="insects">Insects</option>
                         </select>
                     </div>
-                    <button type="button" class="btn btn-success" onclick="checkQuiz()">Submit Quiz</button>
+                    <button type="button" class="btn btn-success" onclick="checkQuiz()" aria-label="Submit Quiz">Submit Quiz</button>
                     <p id="feedback" class="feedback"></p>
                 </form>
             </div>
@@ -90,16 +90,34 @@
             </div>
         </div>
 
-        <!-- Another Quiz or Interactive Section -->
+        <!-- True/False Quiz -->
         <div class="card mb-4">
             <div class="card-body">
                 <h3>Quick True/False</h3>
                 <p>True or False: Penguins live in the desert?</p>
-                <button class="btn btn-outline-primary me-2" onclick="checkTF(true)">True</button>
-                <button class="btn btn-outline-primary" onclick="checkTF(false)">False</button>
+                <button class="btn btn-outline-primary me-2" onclick="checkTF(true)" aria-label="Answer True">True</button>
+                <button class="btn btn-outline-primary" onclick="checkTF(false)" aria-label="Answer False">False</button>
                 <p id="tfFeedback" class="feedback"></p>
             </div>
         </div>
+
+       <!-- Additional Interactive Block -->
+<div class="card mb-4">
+    <div class="card-body">
+        <h3>Try Another Quiz!</h3>
+        <label for="q3" class="form-label">Which continent is home to kangaroos?</label>
+        <select id="q3" class="form-select mb-2">
+            <option value="">Select an answer</option>
+            <option value="asia">Asia</option>
+            <option value="australia">Australia</option>
+            <option value="africa">Africa</option>
+        </select>
+        <button class="btn btn-warning" onclick="checkExtraQuiz()" aria-label="Submit Extra Quiz">Submit</button>
+        <p id="extraFeedback" class="feedback"></p>
+    </div>
+</div>
+
+
     </div>
 
     <!-- Footer -->
@@ -145,6 +163,14 @@
             const feedbackEl = document.getElementById('tfFeedback');
             if(answer === correct) feedbackEl.innerText = "Correct! Penguins do not live in deserts.";
             else feedbackEl.innerText = "Incorrect. Penguins are adapted to cold or aquatic regions.";
+        }
+
+        // Extra Quiz
+        function checkExtraQuiz() {
+            const q3 = document.getElementById('q3').value;
+            const feedbackEl = document.getElementById('extraFeedback');
+            if(q3 === "australia") feedbackEl.innerText = "Correct! Kangaroos are native to Australia.";
+            else feedbackEl.innerText = "Incorrect. The correct answer is Australia.";
         }
     </script>
 </body>
