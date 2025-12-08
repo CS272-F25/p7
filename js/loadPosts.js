@@ -41,7 +41,7 @@ async function loadPosts() {
             </div>`;
             container.insertAdjacentHTML('beforeend', postHTML);
         });
-
+  
         container.appendChild(row);
     } catch (error) {
         console.error("Error loading posts:", error);

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asia Wildlife</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/animals.css">
+</head>
+
+<body data-continent="africa">
+    <!-- Navbar -->
+    <div id="navbar-placeholder"></div>
+
+    <!-- Hero Section -->
+    <section class="hero text-white text-center"
+        style="background-image: url('../assets/africa.jpg'); background-size: cover; background-position: center; padding: 120px 0;">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Animals of Africa</h1>
+            <p class="lead mb-4">TODO</p>
+            <a href="../quiz/quiz.html" class="btn btn-primary btn-lg">Quiz me!</a>
+        </div>
+    </section>
+
+    <!-- Animals Card Section -->
+    <section id="animals-section" class="container py-5">
+        <div class="row g-4"></div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark text-white text-center">
+        <p>Copyright &copy; WonderWild 2025</p>
+    </footer>
+
+    <script>
+        fetch("../components/nav.html")
+            .then(res => res.text())
+            .then(html => document.getElementById("navbar-placeholder").innerHTML = html);
+    </script>
+    <script src="../js/animals.js"></script>
+</body>
+
+</html>

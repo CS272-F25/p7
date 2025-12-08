@@ -17,49 +17,8 @@
 </head>
 
 <body>
-    <!-- Responsive navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-            <a class="navbar-brand" href="#!">WonderWild</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="animalsDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Animals
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="animalsDropdown">
-                            <li><a class="dropdown-item" href="animals/asia.html">Asia</a></li>
-                            <li><a class="dropdown-item" href="animals/africa.html">Africa</a></li>
-                            <li><a class="dropdown-item" href="animals/north-america.html">North America</a></li>
-                            <li><a class="dropdown-item" href="animals/south-america.html">South America</a></li>
-                            <li><a class="dropdown-item" href="animals/europe.html">Europe</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="natureDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Natural World
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="natureDropdown">
-                        <li><a class="dropdown-item" href="Nature/lakes.html">Lakes</a></li>
-                        <li><a class="dropdown-item" href="Nature/mountains.html">Mountains</a></li>
-                        <li><a class="dropdown-item" href="Nature/waterfalls.html">Waterfalls</a></li>
-                        <li><a class="dropdown-item" href="Nature/rivers.html">Rivers</a></li>
-                        <li><a class="dropdown-item" href="Nature/forests.html">Forests</a></li>
-                        <li><a class="dropdown-item" href="Nature/deserts.html">Deserts</a></li>
-                        <li><a class="dropdown-item" href="Nature/glaciers.html">Glaciers</a></li>
-                        <li><a class="dropdown-item" href="Nature/valleys.html">Valleys</a></li>
-                    </ul>
-                </li>
-                    <li class="nav-item"><a class="nav-link" href="#">Quizzes</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <!-- Navbar -->
+    <div id="navbar-placeholder"></div>
 
     <header class="py-5 mb-4 header-image">
         <div class="container">
@@ -85,7 +44,7 @@
                     <div class="card-header">Search</div>
                     <div class="card-body">
                         <div class="input-group">
-                            <input class="form-control" type="text" placeholder="Enter search term..."
+                            <input class="form-control" type="text" placeholder="Animal you're looking for..."
                                 aria-label="Enter search term..." aria-describedby="button-search" />
                             <button class="btn btn-primary" id="button-search" type="button">Go!</button>
                         </div>
@@ -132,6 +91,11 @@
     <!-- Core theme JS-->
 
     <script src="js/loadPosts.js"></script>
+    <script>
+        fetch("../components/nav.html")
+            .then(res => res.text())
+            .then(html => document.getElementById("navbar-placeholder").innerHTML = html);
+    </script>
 
 </body>
 

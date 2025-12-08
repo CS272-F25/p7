@@ -1,0 +1,22 @@
+[
+  {
+    "question": "Which of these animals is native to Asia?",
+    "options": ["Elephant", "Kangaroo", "Penguin", "Polar Bear"],
+    "answer": "Elephant"
+  },
+  {
+    "question": "What is the largest big cat in Asia?",
+    "options": ["Lion", "Tiger", "Leopard", "Cheetah"],
+    "answer": "Tiger"
+  },
+  {
+    "question": "True or False: The Panda is native to China.",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "question": "Which of these animals is endangered?",
+    "options": ["Siberian Tiger", "House Cat", "Crow", "Rabbit"],
+    "answer": "Siberian Tiger"
+  }
+]
