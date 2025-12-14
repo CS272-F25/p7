@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 style="max-width: 200px; opacity: 0.8;"
             >
             <p class="text-muted">
-                No animals found for "${query}".
+                No animals found for "${query}". We'll keep adding new animals soon!
             </p>
         </div>`;
         }
