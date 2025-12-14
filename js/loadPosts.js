@@ -30,7 +30,10 @@ async function loadPosts() {
         row.className = 'row';
 
         selectedPosts.forEach(post => {
-            const postHTML = `
+            const col = document.createElement("div");
+            col.className = 'col-md-6'
+
+            col.innerHTML = `
             <div class="card mb-4">
                 <img class="card-img-top" src="${post.image}" alt="...">
                 <div class="card-body">
@@ -39,7 +42,8 @@ async function loadPosts() {
                     <p class="card-text">${post.content}</p>
                 </div>
             </div>`;
-            container.insertAdjacentHTML('beforeend', postHTML);
+            
+            row.appendChild(col);
         });
   
         container.appendChild(row);

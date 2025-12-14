@@ -1,9 +1,13 @@
 let quizData = [];
 let currentQuestion = 0;
 let score = 0;
+const continent = document.body.dataset.continent;
+
+
 
 fetch("./quizData.json")
     .then(response => response.json())
+    .then(data => data[continent])
     .then(data => {
         quizData = data;
         showQuestion();

@@ -10,3 +10,24 @@
 .header-image .text-center {
     width: 100%;
 }
+
+.btn-explore {
+    background-color: #8d2a00; 
+    color: white;
+    border: none;
+}
+
+.btn-explore:hover {
+    background-color: #eabb0e;
+}
+
+.btn-favorite {
+    background-color: #8d2a00; 
+    color: white;
+    border: none;
+}
+
+.btn-favorite:hover {
+    background-color: #eabb0e;
+}
+

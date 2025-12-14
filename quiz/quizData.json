@@ -1,22 +1,83 @@
-[
-  {
-    "question": "Which of these animals is native to Asia?",
-    "options": ["Elephant", "Kangaroo", "Penguin", "Polar Bear"],
-    "answer": "Elephant"
-  },
-  {
-    "question": "What is the largest big cat in Asia?",
-    "options": ["Lion", "Tiger", "Leopard", "Cheetah"],
-    "answer": "Tiger"
-  },
-  {
-    "question": "True or False: The Panda is native to China.",
-    "options": ["True", "False"],
-    "answer": "True"
-  },
-  {
-    "question": "Which of these animals is endangered?",
-    "options": ["Siberian Tiger", "House Cat", "Crow", "Rabbit"],
-    "answer": "Siberian Tiger"
-  }
-]
+{
+  "asia": [
+    {
+      "question": "Which Asian animal primarily feeds on bamboo, yet is not a bear?",
+      "options": ["Red Panda", "Giant Panda", "Orangutan", "Snow Leopard"],
+      "answer": "Red Panda"
+    },
+    {
+      "question": "Which of the following animals plays a crucial role as a seed disperser in tropical rainforests?",
+      "options": ["Orangutan", "Bengal Tiger", "Asian Elephant", "Snow Leopard"],
+      "answer": "Orangutan"
+    },
+    {
+      "question": "Which endangered Asian predator can navigate steep mountain slopes due to its thick fur and powerful limbs?",
+      "options": ["Snow Leopard", "Bengal Tiger", "Grey Wolf", "Cheetah"],
+      "answer": "Snow Leopard"
+    },
+    {
+      "question": "Which Asian animal is considered a gentle giant and can live up to 60 years in the wild?",
+      "options": ["Asian Elephant", "Bengal Tiger", "Orangutan", "Red Panda"],
+      "answer": "Asian Elephant"
+    },
+    {
+      "question": "Which Asian primate is critically endangered, spends most of its life in trees, and uses tools for problem-solving?",
+      "options": ["Orangutan", "Red Panda", "Bengal Tiger", "Snow Leopard"],
+      "answer": "Orangutan"
+    }
+  ],
+  "north_america": [
+    {
+      "question": "Among North American mammals, which species was nearly driven to extinction due to overhunting, but now contributes to shaping grassland ecosystems?",
+      "options": ["American Bison", "Grizzly Bear", "Moose", "Raccoon"],
+      "answer": "American Bison"
+    },
+    {
+      "question": "Which North American predator relies heavily on pack hunting and maintains prey population balance?",
+      "options": ["Grey Wolf", "Grizzly Bear", "Bald Eagle", "Moose"],
+      "answer": "Grey Wolf"
+    },
+    {
+      "question": "Which nocturnal North American animal is highly adaptable and known for raiding human trash and food sources?",
+      "options": ["Raccoon", "Moose", "Bald Eagle", "Grey Wolf"],
+      "answer": "Raccoon"
+    },
+    {
+      "question": "True or False: The Bald Eagle is a predator whose main diet consists of fish, and its population has rebounded due to conservation efforts.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "Which North American herbivore is the largest deer species and feeds on aquatic plants and shrubs?",
+      "options": ["Moose", "American Bison", "Raccoon", "Grizzly Bear"],
+      "answer": "Moose"
+    }
+  ],
+  "africa": [
+    {
+      "question": "Which African herbivore can live up to 70 years and helps shape landscapes by uprooting trees and creating water holes?",
+      "options": ["African Elephant", "Giraffe", "Hippopotamus", "Zebra"],
+      "answer": "African Elephant"
+    },
+    {
+      "question": "Which African predator is famous for hunting primarily during the day using speed and stealth?",
+      "options": ["Cheetah", "African Lion", "Grizzly Bear", "Grey Wolf"],
+      "answer": "Cheetah"
+    },
+    {
+      "question": "Which African animal is a semi-aquatic mammal that is territorial but plays a crucial role in aquatic ecosystems?",
+      "options": ["Hippopotamus", "Cheetah", "Giraffe", "Zebra"],
+      "answer": "Hippopotamus"
+    },
+    {
+      "question": "Which African animal has a social structure called a pride and primarily hunts herbivores like zebras and antelopes?",
+      "options": ["African Lion", "Cheetah", "Grizzly Bear", "Snow Leopard"],
+      "answer": "African Lion"
+    },
+    {
+      "question": "Which African herbivore can reach heights due to its long neck and plays an important role in controlling tree vegetation?",
+      "options": ["Giraffe", "Zebra", "African Elephant", "Hippopotamus"],
+      "answer": "Giraffe"
+    }
+  ]
+}

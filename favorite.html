@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>WonderWild: Your Favorites</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body data-continent="Africa">
+    <div id="navbar-placeholder"></div>
+
+    <a href="../index.html" style="position: fixed; top: 65px; left: 20px; z-index: 1000; 
+          background-color: rgba(0,0,0,0.6); color: white; 
+          padding: 6px 10px; border-radius: 5px; text-decoration: none; 
+          font-weight: bold; font-size: 0.9rem;">
+        <i class="bi bi-arrow-left"></i> Back to Home Page
+    </a>
+
+    <div class="container my-5">
+        <h2 class="mb-4">Find your Favorite Animals here</h2>
+        <div id="favorites-section" class="row"></div>
+    </div>
+
+    <footer class="py-5 bg-dark">
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; WonderWild 2025</p>
+        </div>
+    </footer>
+
+    <script>
+        // Load navbar
+        fetch("../components/nav.html")
+            .then(res => res.text())
+            .then(html => document.getElementById("navbar-placeholder").innerHTML = html);
+    </script>
+
+    <script src="../js/favorite.js"></script>
+</body>
+
+</html>
