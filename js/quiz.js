@@ -1,6 +1,7 @@
 let quizData = [];
 let currentQuestion = 0;
 let score = 0;
+let userAnswers = [];
 const continent = document.body.dataset.continent;
 
 
@@ -39,17 +40,37 @@ function showQuestion() {
 }
 
 function selectAnswer(btn, selected) {
-    const correct = quizData[currentQuestion].answer;
+    const current = quizData[currentQuestion]
+    const correct = current.answer;
+    const explanation = current.explanation;
+
+    userAnswers[currentQuestion] = {
+        question: current.question,
+        selected: selected,
+        correct: correct,
+        explanation: explanation,
+        isCorrect: selected === correct,
+        image: current.image
+    };
 
     Array.from(optionsEl.children).forEach(btn => btn.disabled = true);
 
     if (selected === correct) {
         score++;
         btn.classList.replace("btn-outline-primary", "btn-success");
-        feedbackEl.textContent = "Correct! 🎉";
+        feedbackEl.innerHTML = `
+            <strong>Correct! 🎉</strong><br>
+            <small>${explanation}</small>
+            <img src="${current.image}" alt="${correct}" style="max-width:200px; margin-top:10px; border-radius:8px;">
+        `;
     } else {
         btn.classList.replace("btn-outline-primary", "btn-danger");
-        feedbackEl.textContent = `Wrong! 😢 Correct answer: ${correct}`;
+        feedbackEl.innerHTML = `
+            <strong>Wrong! 😢</strong><br>
+            Correct answer: <strong>${correct}</strong><br>
+            <small>${explanation}</small><br>
+            <img src="${current.image}" alt="${correct}" style="max-width:200px; margin-top:10px; border-radius:8px;">
+        `;
         Array.from(optionsEl.children).forEach(btn => {
             if (btn.textContent === correct) {
                 btn.classList.replace("btn-outline-primary", "btn-success");
@@ -76,4 +97,29 @@ function showScore() {
     nextBtn.style.display = "none";
     progressEl.textContent = "";
     scoreEl.textContent = `Your Score: ${score} / ${quizData.length}`;
+    feedbackEl.innerHTML = `
+            <div class="mt-4">
+                <h5>Answer Review</h5>
+                ${userAnswers.map((item, index) => `
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <p><strong>Q${index + 1}:</strong> ${item.question}</p>
+                            <p>
+                                Your answer:
+                                <span class="${item.isCorrect ? 'text-success' : 'text-danger'}">
+                                    ${item.selected}
+                                </span>
+                            </p>
+                            ${
+                                item.isCorrect
+                                    ? ''
+                                    : `<p>Correct answer: <span class="text-success">${item.correct}</span></p>`
+                            }
+                            <p class="text-muted"><small>Explanation: ${item.explanation}</small></p>
+                             <img src="${item.image}" alt="${item.correct}" style="max-width:180px; margin-top:8px; border-radius:8px;">
+                        </div>
+                    </div>
+                `).join("")}
+            </div>
+        `;
 }

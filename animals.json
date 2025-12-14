@@ -150,7 +150,7 @@
   "africa": [
     {
       "name": "African Lion",
-      "img": "../assets/lion.jpg",
+      "img": "../assets/african-lion.jpg",
       "short": "The king of the savanna, known for its strength and pride structure.",
       "more": "African lions are social cats living in prides. They are apex predators that control herbivore populations, ensuring healthy ecosystems. Threats include habitat loss and human conflict.",
       "details": [
@@ -186,7 +186,7 @@
     },
     {
       "name": "Hippopotamus",
-      "img": "../assets/hippopotamus.jpg",
+      "img": "../assets/hippo.jpg",
       "short": "A massive semi-aquatic mammal spending much of its time in rivers.",
       "more": "Hippos are key ecosystem engineers in rivers, shaping channels and distributing nutrients. They are aggressive and territorial but crucial for aquatic biodiversity.",
         "details": [

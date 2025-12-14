@@ -18,15 +18,15 @@ document.addEventListener('DOMContentLoaded', () => {
         col.className = 'card mb-3';
 
         col.innerHTML = `
-            <div class="row g-0">
+            <div class="row">
                 <div class="col-md-4">
-                    <img src="${animal.img}" class="img-fluid rounded-start" alt="${animal.name}">
+                    <img src="${animal.img}" class="img-fluid rounded-start mt-4 ms-3" alt="${animal.name}">
                 </div>
                 <div class="col-md-8">
                     <div class="card-body">
                         <div class="d-flex justify-content-between align-items-center mb-2">
                             <h5 class="card-title mb-0">${animal.name}</h5>
-                            <button class="btn btn-sm btn-outline-danger like-btn">
+                            <button class="btn btn-sm like-btn">
                                 <i class="bi bi-heart"></i> Like
                             </button>
                         </div>

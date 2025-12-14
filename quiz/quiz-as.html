@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asia Wildlife Quiz</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/animals.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body data-continent="asia">
+    <div id="navbar-placeholder"></div>
+
+
+    <a href="../animals.html" style="position: fixed; top: 65px; left: 20px; z-index: 1000; 
+          background-color: rgba(0,0,0,0.6); color: white; 
+          padding: 6px 10px; border-radius: 5px; text-decoration: none; 
+          font-weight: bold; font-size: 0.9rem;">
+        <i class="bi bi-arrow-left"></i> Back to Animals Page
+    </a>
+
+    <section class="hero text-white text-center"
+        style="background-image: url('../assets/asia.jpg'); background-size: cover; background-position: center; padding: 80px 0;">
+        <div class="container">
+            <h1>Asia Wildlife Quiz</h1>
+            <p>Let's see what you know!</p>
+        </div>
+    </section>
+    
+
+    <!-- Quiz Section -->
+    <section class="quiz-section container py-5">
+        <h2 class="text-center mb-4">Test your knowledge about Asia Wildlife</h2>
+        <div id="quiz-container" class="card p-4 mx-auto" style="max-width: 600px; width: 50%;">
+            <div id="progress" class="mt-3"></div>
+            <div id="question" class="fs-5 fw-bold"></div>
+            <div id="options" class="mt-3 d-grid gap-2"></div>
+            <button id="next-btn" class="btn btn-primary btn-sm mt-3"
+                style="width: auto; min-width: 80px;">Next</button>
+            <div id="score" class="mt-3 fs-5 fw-bold text-center"></div>
+            <div id="feedback" class="mt-2 fs-6 fw-bold text-center"></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark text-white text-center">
+        <p>Copyright &copy; WonderWild 2025</p>
+    </footer>
+
+    <script>
+        fetch("../components/nav.html")
+            .then(res => res.text())
+            .then(html => document.getElementById("navbar-placeholder").innerHTML = html);
+    </script>
+    <script src="../js/quiz.js"></script>
+</body>
+
+</html>
