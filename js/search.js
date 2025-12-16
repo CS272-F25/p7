@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let allAnimals = [];
 
     // Load all animals from JSON
-    fetch('../animals.json')
+    fetch('animals.json')
         .then(res => res.json())
         .then(data => {
             allAnimals = Object.values(data).flat();
@@ -16,11 +16,12 @@ document.addEventListener('DOMContentLoaded', () => {
     function createAnimalCard(animal) {
         const col = document.createElement('div');
         col.className = 'card mb-3';
+        const imgPath = animal.img.replace('../', '');
 
         col.innerHTML = `
             <div class="row">
                 <div class="col-md-4">
-                    <img src="${animal.img}" class="img-fluid rounded-start mt-4 ms-3" alt="${animal.name}">
+                    <img src="${imgPath}" class="img-fluid rounded-start mt-4 ms-3" alt="${animal.name}">
                 </div>
                 <div class="col-md-8">
                     <div class="card-body">

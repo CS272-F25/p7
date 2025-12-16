@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const cardBody = btn.closest('.card-body');
             const animalName = cardBody.querySelector('.card-title').textContent;
             if (likedAnimals.includes(animalName)) {
-                btn.classList.add('btn-danger');a
+                btn.classList.add('btn-danger');
                 btn.querySelector('i').classList.replace('bi-heart', 'bi-heart-fill');
             }
         });

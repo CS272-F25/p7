@@ -1,6 +1,8 @@
 async function loadFavorites() {
     const container = document.getElementById('favorites-section');
     const likedAnimals = JSON.parse(localStorage.getItem('likedAnimals')) || [];
+    //debug
+    console.log("Liked animals from localStorage:", likedAnimals);
 
     if (likedAnimals.length === 0) {
         container.innerHTML = `
@@ -12,7 +14,7 @@ async function loadFavorites() {
     }
 
     try {
-        const response = await fetch('../animals.json');
+        const response = await fetch('animals.json');
         const data = await response.json();
 
         // Flatten all continents into one array
@@ -23,10 +25,11 @@ async function loadFavorites() {
         favorites.forEach(animal => {
             const col = document.createElement('div');
             col.className = 'col-md-4 mb-4';
+            const imgPath = animal.img.replace('../', '');
 
             col.innerHTML = `
                     <div class="card h-100">
-                        <img class="card-img-top" src="${animal.img}" alt="${animal.name}">
+                        <img class="card-img-top" src="${imgPath}" alt="${animal.name}">
                         <div class="card-body">
                             <div class="d-flex justify-content-between align-items-center mb-2">
                                 <h5 class="card-title mb-0">${animal.name}</h5>

@@ -32,6 +32,7 @@ async function loadPosts() {
         selectedPosts.forEach(post => {
             const col = document.createElement("div");
             col.className = 'col-md-6'
+            
 
             col.innerHTML = `
             <div class="card mb-4">
