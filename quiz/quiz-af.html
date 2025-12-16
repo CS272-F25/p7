@@ -14,7 +14,7 @@
     <div id="navbar-placeholder"></div>
 
 
-    <a href="/animals/africa.html" style="position: fixed; top: 65px; left: 20px; z-index: 1000; 
+    <a href="/p7/animals/africa.html" style="position: fixed; top: 65px; left: 20px; z-index: 1000; 
           background-color: rgba(0,0,0,0.6); color: white; 
           padding: 6px 10px; border-radius: 5px; text-decoration: none; 
           font-weight: bold; font-size: 0.9rem;">
@@ -50,7 +50,7 @@
     </footer>
 
     <script>
-        fetch("components/nav.html")
+        fetch("../components/nav.html")
             .then(res => res.text())
             .then(html => document.getElementById("navbar-placeholder").innerHTML = html);
     </script>
