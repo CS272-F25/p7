@@ -20,108 +20,126 @@
 <body class="about-page">
     <div id="navbar-placeholder"></div>
 
-    <section class="film-strip">
-        <div class="film-container">
-            <img src="assets/africa.jpg" alt="africa">
-            <img src="assets/panda.jpg" alt="Panda">
-            <img src="assets/elephant.jpg" alt="Elephant">
-            <img src="assets/grey-wolf.jpg" alt="Wolf">
-            <img src="assets/north-america.jpg" alt="Giraffe">
-            <img src="assets/tiger.jpg" alt="Tiger">
-        </div>
-    </section>
+    <main>
+        <section class="film-strip">
+            <div class="film-container">
+                <img src="assets/africa.jpg" alt="africa">
+                <img src="assets/panda.jpg" alt="Panda">
+                <img src="assets/elephant.jpg" alt="Elephant">
+                <img src="assets/grey-wolf.jpg" alt="Wolf">
+                <img src="assets/north-america.jpg" alt="Giraffe">
+                <img src="assets/tiger.jpg" alt="Tiger">
+            </div>
+        </section>
 
-    <a href="index.html" style="position: fixed; top: 80px; left: 20px; z-index: 1000; 
+        <a href="index.html" style="position: fixed; top: 80px; left: 20px; z-index: 1000; 
           background-color: rgba(0,0,0,0.6); color: white; 
           padding: 6px 10px; border-radius: 5px; text-decoration: none; 
           font-weight: bold; font-size: 0.9rem;">
-        <i class="bi bi-arrow-left"></i> Back to Home Page
-    </a>
+            <i class="bi bi-arrow-left"></i> Back to Home Page
+        </a>
 
-    <div class="hero">
-        <h1>About Our Website</h1>
-        <p>
-            WonderWild is an online learning platform designed to help users explore wildlife
-            across Asia, Africa, and North America using well-structured resources and engaging visual experiences.
-        </p>
-    </div>
-
-    <section class="container mb-5">
-        <h2>Course Project</h2>
-        <p>
-            This website is a **Web Development course project** created to demonstrate skills in building interactive
-            and responsive web pages.
-        </p>
-        <p>
-            <strong>Built with:</strong> HTML, CSS, JavaScript
-        </p>
-    </section>
-
-    <!-- Mission -->
-    <section class="container">
-        <h2>Our Mission</h2>
-        <p>
-            Our mission is to provide a clear and reliable platform where users can learn about animals
-            from different regions, understand their habitats and behaviors, and build meaningful knowledge
-            through exploration.
-        </p>
-        <p>
-            WonderWild focuses on educational value, clean design, and intuitive navigation—making wildlife
-            learning accessible without unnecessary distractions.
-        </p>
-    </section>
-
-    <div class="divider"></div>
-
-    <!-- Features -->
-    <section class="container">
-        <h2>What WonderWild Offers</h2>
-
-        <div class="row g-4 mt-3">
-            <div class="col-md-4">
-                <div class="feature-card">
-                    <h5>🌍 Global Coverage</h5>
-                    <p>
-                        Explore animals across three major regions—Asia, Africa, and North America—
-                        each featuring unique ecosystems and species.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="feature-card">
-                    <h5>🧠 Knowledge Checks</h5>
-                    <p>
-                        Short quizzes help reinforce learning and allow users to test their understanding
-                        after exploring different animals.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="feature-card">
-                    <h5>⭐ Personal Favorites</h5>
-                    <p>
-                        Users can save animals they are interested in, creating a personal collection
-                        for easy access and review.
-                    </p>
-                </div>
-            </div>
+        <div class="hero">
+            <h1>About Our Website</h1>
+            <p>
+                WonderWild is an online learning platform designed to help users explore wildlife
+                across Asia, Africa, and North America using well-structured resources and engaging visual experiences.
+            </p>
         </div>
-    </section>
 
-    <div class="divider"></div>
+        <section class="container mb-5">
+            <h2>Course Project</h2>
 
-    <!-- Future -->
-    <section class="container">
-        <h2>Looking Ahead</h2>
-        <p>
-            WonderWild will keep expanding to include more continents, a greater variety of animal species, richer
-            interactive learning tools, and even more engaging content—stay tuned!”
-        </p>
-        <img src="assets/cute-bunny.png" alt="cute-bunny"
-            style="width:20%; max-width:800px; display:block; margin:20px auto;">
-    </section>
+            <p>
+                This website is a <strong>Web Development course project</strong> created to demonstrate skills in
+                building interactive
+                and responsive web pages.
+            </p>
+
+            <p>
+                <strong>Built with:</strong> HTML, CSS, JavaScript
+            </p>
+
+            <details class="mt-3">
+                <summary>Managing Data</summary>
+                <p class="mt-2">
+                    This project uses <strong>Local Storage</strong> to store user-specific data such as
+                    saved favorite animals, quiz answers and study notes. It also uses <strong>JSON files</strong> to hold structured
+                    animal data, which is dynamically loaded with JavaScript to generate random animal
+                    posts on the front page.
+                </p>
+            </details>
+        </section>
+
+
+        <!-- Mission -->
+        <section class="container">
+            <h2>Our Mission</h2>
+            <p>
+                Our mission is to provide a clear and reliable platform where users can learn about animals
+                from different regions, understand their habitats and behaviors, and build meaningful knowledge
+                through exploration.
+            </p>
+            <p>
+                WonderWild focuses on educational value, clean design, and intuitive navigation—making wildlife
+                learning accessible without unnecessary distractions.
+            </p>
+        </section>
+
+        <div class="divider"></div>
+
+        <!-- Features -->
+        <section class="container">
+            <h2>What WonderWild Offers</h2>
+
+            <div class="row g-4 mt-3">
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <h5>🌍 Global Coverage</h5>
+                        <p>
+                            Explore animals across three major regions—Asia, Africa, and North America—
+                            each featuring unique ecosystems and species.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <h5>🧠 Knowledge Checks</h5>
+                        <p>
+                            Short quizzes help reinforce learning and allow users to test their understanding
+                            after exploring different animals.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <h5>⭐ Personal Favorites</h5>
+                        <p>
+                            Users can save animals they are interested in, creating a personal collection
+                            for easy access and review.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="divider"></div>
+
+        <!-- Future -->
+        <section class="container">
+            <h2>Looking Ahead</h2>
+            <p>
+                WonderWild will keep expanding to include more continents, a greater variety of animal species, richer
+                interactive learning tools, and even more engaging content—stay tuned!”
+            </p>
+            <figure style="text-align:center;">
+                <img src="assets/cute-bunny.png" alt="Cute bunny illustration" style="width:20%; max-width:800px;">
+                <figcaption>A glimpse of future wildlife content coming to WonderWild</figcaption>
+            </figure>
+        </section>
+    </main>
 
 
 

@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', () => {
             searchResults.innerHTML = `
         <div class="text-center mt-3">
             <img 
-                src="../assets/not-found.png" 
+                src="assets/not-found.png" 
                 alt="No animals found" 
                 class="img-fluid mb-2"
                 style="max-width: 200px; opacity: 0.8;"
