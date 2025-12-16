@@ -36,7 +36,7 @@ async function loadPosts() {
 
             col.innerHTML = `
             <div class="card mb-4">
-                <img class="card-img-top" src="${post.image}" alt="...">
+                <img class="card-img-top" src="${post.image}" alt=${post.title}>
                 <div class="card-body">
                     <div class="small text-muted">${post.date}</div>
                     <h2 class="card-title h5">${post.title}</h2>
