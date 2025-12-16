@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>WonderWild: Explore and Learn About Animals!</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/about.css" rel="stylesheet" />
+    <link href="css/blog.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body class="about-page">
+    <div id="navbar-placeholder"></div>
+
+    <section class="film-strip">
+        <div class="film-container">
+            <img src="assets/africa.jpg" alt="africa">
+            <img src="assets/panda.jpg" alt="Panda">
+            <img src="assets/elephant.jpg" alt="Elephant">
+            <img src="assets/grey-wolf.jpg" alt="Wolf">
+            <img src="assets/north-america.jpg" alt="Giraffe">
+            <img src="assets/tiger.jpg" alt="Tiger">
+        </div>
+    </section>
+
+    <a href="index.html" style="position: fixed; top: 80px; left: 20px; z-index: 1000; 
+          background-color: rgba(0,0,0,0.6); color: white; 
+          padding: 6px 10px; border-radius: 5px; text-decoration: none; 
+          font-weight: bold; font-size: 0.9rem;">
+        <i class="bi bi-arrow-left"></i> Back to Home Page
+    </a>
+
+    <div class="hero">
+        <h1>About Our Website</h1>
+        <p>
+            WonderWild is an online learning platform designed to help users explore wildlife
+            across Asia, Africa, and North America using well-structured resources and engaging visual experiences.
+        </p>
+    </div>
+
+    <section class="container mb-5">
+        <h2>Course Project</h2>
+        <p>
+            This website is a **Web Development course project** created to demonstrate skills in building interactive
+            and responsive web pages.
+        </p>
+        <p>
+            <strong>Built with:</strong> HTML, CSS, JavaScript
+        </p>
+    </section>
+
+    <!-- Mission -->
+    <section class="container">
+        <h2>Our Mission</h2>
+        <p>
+            Our mission is to provide a clear and reliable platform where users can learn about animals
+            from different regions, understand their habitats and behaviors, and build meaningful knowledge
+            through exploration.
+        </p>
+        <p>
+            WonderWild focuses on educational value, clean design, and intuitive navigation—making wildlife
+            learning accessible without unnecessary distractions.
+        </p>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- Features -->
+    <section class="container">
+        <h2>What WonderWild Offers</h2>
+
+        <div class="row g-4 mt-3">
+            <div class="col-md-4">
+                <div class="feature-card">
+                    <h5>🌍 Global Coverage</h5>
+                    <p>
+                        Explore animals across three major regions—Asia, Africa, and North America—
+                        each featuring unique ecosystems and species.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="feature-card">
+                    <h5>🧠 Knowledge Checks</h5>
+                    <p>
+                        Short quizzes help reinforce learning and allow users to test their understanding
+                        after exploring different animals.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="feature-card">
+                    <h5>⭐ Personal Favorites</h5>
+                    <p>
+                        Users can save animals they are interested in, creating a personal collection
+                        for easy access and review.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- Future -->
+    <section class="container">
+        <h2>Looking Ahead</h2>
+        <p>
+            WonderWild will keep expanding to include more continents, a greater variety of animal species, richer
+            interactive learning tools, and even more engaging content—stay tuned!”
+        </p>
+        <img src="assets/cute-bunny.png" alt="cute-bunny" style="width:20%; max-width:800px; display:block; margin:20px auto;">
+    </section>
+
+
+
+    <!-- Footer-->
+    <footer class="py-5 bg-dark">
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; WonderWild 2025</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/loadPosts.js"></script>
+    <script src="js/search.js"></script>
+    <script>
+        fetch("components/nav.html")
+            .then(res => res.text())
+            .then(html => document.getElementById("navbar-placeholder").innerHTML = html);
+    </script>
+
+</body>
+
+</html>

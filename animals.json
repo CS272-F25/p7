@@ -1,0 +1,224 @@
+{
+  "asia": [
+    {
+      "name": "Bengal Tiger",
+      "img": "../assets/tiger.jpg",
+      "short": "The iconic tiger of Asia with a striking orange coat and black stripes.",
+      "more": "Bengal tigers are the most numerous tiger subspecies, primarily found in India and Bangladesh. They play a vital role as apex predators in maintaining ecological balance in forests. Despite conservation efforts, their populations remain threatened due to habitat loss, poaching, and human–wildlife conflict.",
+      "details": [
+        "Habitat: Tropical forests, mangroves, and grasslands",
+        "Diet: Carnivorous, mainly deer, wild boar, and buffalo",
+        "Conservation Status: Endangered",
+        "Average Lifespan: 8–10 years in the wild"
+      ]
+    },
+    {
+      "name": "Giant Panda",
+      "img": "../assets/panda.jpg",
+      "short": "A beloved bear species from China known for its black-and-white fur.",
+      "more": "Giant pandas are symbols of wildlife conservation worldwide. They are unique among bears for their bamboo-based diet, and their specialized teeth and strong jaws reflect this adaptation. Intensive conservation programs and habitat restoration have helped improve their status, though they remain vulnerable.",
+      "details": [
+        "Habitat: Temperate bamboo forests in Sichuan, Shaanxi, and Gansu provinces",
+        "Diet: 99% bamboo, occasionally small animals or eggs",
+        "Conservation Status: Vulnerable",
+        "Average Lifespan: 20 years in the wild, up to 30 in captivity"
+      ]
+    },
+    {
+      "name": "Orangutan",
+      "img": "../assets/orangutan.jpg",
+      "short": "Intelligent, tree-dwelling primates from Borneo and Sumatra.",
+      "more": "Orangutans are among the closest relatives to humans and known for their remarkable problem-solving abilities and use of tools. They spend most of their lives in trees and play an essential ecological role as seed dispersers. Their populations are declining rapidly due to deforestation and illegal wildlife trade.",
+      "details": [
+        "Habitat: Tropical rainforests of Borneo and Sumatra",
+        "Diet: Fruits, leaves, bark, insects, and occasionally small vertebrates",
+        "Conservation Status: Critically Endangered",
+        "Average Lifespan: 30–40 years in the wild"
+      ]
+    },
+    {
+      "name": "Asian Elephant",
+      "img": "../assets/elephant.jpg",
+      "short": "A gentle giant native to forests and grasslands across Asia.",
+      "more": "Asian elephants are highly intelligent animals with strong social structures and impressive memory. They help maintain forest ecosystems by dispersing seeds and creating pathways. Sadly, they face threats from habitat fragmentation, poaching, and collisions with human settlements.",
+      "details": [
+        "Habitat: Grasslands, forests, and scrublands across India, Sri Lanka, and Southeast Asia",
+        "Diet: Herbivorous, consuming grasses, fruits, and bark",
+        "Conservation Status: Endangered",
+        "Average Lifespan: 60 years in the wild"
+      ]
+    },
+    {
+      "name": "Snow Leopard",
+      "img": "../assets/snow-leopard.jpg",
+      "short": "An elusive mountain cat adapted to cold, rocky terrain.",
+      "more": "Snow leopards are rarely seen due to their stealth and remote habitats. Their thick fur and powerful limbs allow them to navigate steep mountain slopes with ease. Their populations are threatened by poaching, climate change, and loss of prey species.",
+      "details": [
+        "Habitat: High-altitude mountains (3,000–4,500 m) across Central Asia",
+        "Diet: Wild sheep, goats, and smaller mammals",
+        "Conservation Status: Vulnerable",
+        "Average Lifespan: 10–12 years in the wild"
+      ]
+    },
+    {
+      "name": "Red Panda",
+      "img": "../assets/red-panda.jpg",
+      "short": "A small, tree-loving mammal with reddish fur and a ringed tail.",
+      "more": "Red pandas are solitary and primarily nocturnal animals known for their agility in navigating forest canopies. Although they share a name with giant pandas, they belong to a distinct taxonomic family. Their survival is threatened by deforestation, climate change, and fragmented habitats.",
+      "details": [
+        "Habitat: Temperate forests with dense bamboo understories",
+        "Diet: Bamboo, fruits, berries, insects, and small mammals",
+        "Conservation Status: Endangered",
+        "Average Lifespan: 8–10 years in the wild"
+      ]
+    }
+  ],
+  "north_america": [
+    {
+      "name": "American Bison",
+      "img": "../assets/bison.jpg",
+      "short": "The massive bison roaming the plains of North America.",
+      "more": "American bison are iconic symbols of the Great Plains. Once near extinction due to overhunting, they have been reintroduced to protected areas. They play a crucial role in shaping grassland ecosystems.",
+      "details": [
+        "Habitat: Grasslands and prairies",
+        "Diet: Herbivorous, mainly grasses",
+        "Conservation Status: Near Threatened",
+        "Average Lifespan: 15–20 years in the wild"
+      ]
+    },
+    {
+      "name": "Grey Wolf",
+      "img": "../assets/grey-wolf.jpg",
+      "short": "The apex predator of North American forests and tundra.",
+      "more": "Grey wolves live in packs with complex social structures. They control prey populations and maintain ecosystem balance. Wolves were historically hunted but now benefit from conservation programs.",
+      "details": [
+        "Habitat: Forests, tundras, and mountains",
+        "Diet: Carnivorous, mainly deer, elk, and small mammals",
+        "Conservation Status: Least Concern",
+        "Average Lifespan: 6–8 years in the wild"
+      ]
+    },
+    {
+      "name": "Bald Eagle",
+      "img": "../assets/bald-eagle.jpg",
+      "short": "The majestic bird of prey and symbol of the United States.",
+      "more": "Bald eagles are powerful hunters that feed mainly on fish. Their populations have rebounded due to bans on pesticides and protection programs, symbolizing successful conservation efforts.",
+      "details": [
+        "Habitat: Near lakes, rivers, and coastal regions",
+        "Diet: Fish, small mammals, and carrion",
+        "Conservation Status: Least Concern",
+        "Average Lifespan: 20–30 years in the wild"
+      ]
+    },
+    {
+      "name": "Moose",
+      "img": "../assets/moose.jpg",
+      "short": "The largest deer species with imposing antlers.",
+      "more": "Moose are solitary herbivores adapted to cold climates. They feed on aquatic plants and shrubs, playing a role in maintaining vegetation balance in their habitats.",
+      "details": [
+        "Habitat: Boreal forests and wetlands",
+        "Diet: Herbivorous, leaves, twigs, and aquatic plants",
+        "Conservation Status: Least Concern",
+        "Average Lifespan: 15–20 years in the wild"
+      ]
+    },
+    {
+      "name": "Raccoon",
+      "img": "../assets/raccoon.jpg",
+      "short": "A clever, nocturnal mammal known for its masked face.",
+      "more": "Raccoons are highly adaptable omnivores that thrive near human settlements. They are known for their dexterity and intelligence, often raiding trash and food sources.",
+      "details": [
+        "Habitat: Forests, urban areas, and wetlands",
+        "Diet: Omnivorous, fruits, insects, small animals, and human food",
+        "Conservation Status: Least Concern",
+        "Average Lifespan: 2–3 years in the wild, up to 20 in captivity"
+      ]
+    },
+    {
+      "name": "Grizzly Bear",
+      "img": "../assets/grizzly-bear.jpg",
+      "short": "A large, powerful bear inhabiting forests and mountains.",
+      "more": "Grizzly bears are apex predators and key ecosystem engineers. They dig for roots, disperse seeds, and prey on ungulates. Human conflict and habitat loss remain major threats.",
+      "details": [
+        "Habitat: Forests, mountains, and tundra",
+        "Diet: Omnivorous, fish, berries, small mammals, and carrion",
+        "Conservation Status: Least Concern",
+        "Average Lifespan: 20–25 years in the wild"
+      ]
+    }
+  ],
+  "africa": [
+    {
+      "name": "African Lion",
+      "img": "../assets/african-lion.jpg",
+      "short": "The king of the savanna, known for its strength and pride structure.",
+      "more": "African lions are social cats living in prides. They are apex predators that control herbivore populations, ensuring healthy ecosystems. Threats include habitat loss and human conflict.",
+      "details": [
+        "Habitat: Savannas, grasslands, and open woodlands",
+        "Diet: Carnivorous, mainly zebras, antelopes, and buffalo",
+        "Conservation Status: Vulnerable",
+        "Average Lifespan: 10–14 years in the wild"
+      ]
+    },
+    {
+      "name": "African Elephant",
+      "img": "../assets/african-elephant.jpg",
+      "short": "The largest land animal, known for its intelligence and strong social bonds.",
+      "more": "African elephants shape landscapes by uprooting trees and creating water holes. They live in matriarchal herds and face threats from poaching and habitat fragmentation.",
+        "details": [
+        "Habitat: Savannas, forests, and deserts",
+        "Diet: Herbivorous, grasses, fruits, and bark",
+        "Conservation Status: Endangered",
+        "Average Lifespan: 60–70 years in the wild"
+      ]
+    },
+    {
+      "name": "Cheetah",
+      "img": "../assets/cheetah.jpg",
+      "short": "The fastest land animal, built for sprinting across the savanna.",
+      "more": "Cheetahs hunt primarily during the day using speed and stealth. They are solitary or live in small groups. Habitat loss and declining prey numbers threaten their populations.",
+      "details": [
+        "Habitat: Grasslands and open plains",
+        "Diet: Carnivorous, mainly antelopes and small mammals",
+        "Conservation Status: Vulnerable",
+        "Average Lifespan: 10–12 years in the wild"
+      ]
+    },
+    {
+      "name": "Hippopotamus",
+      "img": "../assets/hippo.jpg",
+      "short": "A massive semi-aquatic mammal spending much of its time in rivers.",
+      "more": "Hippos are key ecosystem engineers in rivers, shaping channels and distributing nutrients. They are aggressive and territorial but crucial for aquatic biodiversity.",
+        "details": [
+        "Habitat: Rivers, lakes, and wetlands",
+        "Diet: Herbivorous, mainly grasses",
+        "Conservation Status: Vulnerable",
+        "Average Lifespan: 40–50 years in the wild"
+      ]
+    },
+    {
+      "name": "Giraffe",
+      "img": "../assets/giraffe.jpg",
+      "short": "The tallest land animal, easily recognized by its long neck.",
+      "more": "Giraffes feed on leaves from tall trees and play an important role in controlling vegetation. Social structures are loose, and they face threats from poaching and habitat fragmentation.",
+        "details": [
+        "Habitat: Savannas and open woodlands",
+        "Diet: Herbivorous, leaves and shoots",
+        "Conservation Status: Vulnerable",
+        "Average Lifespan: 25 years in the wild"
+      ]
+    },
+    {
+      "name": "Zebra",
+      "img": "../assets/zebra.jpg",
+      "short": "A striking black-and-white striped herbivore of African plains.",
+      "more": "Zebras live in social herds and are prey for lions and hyenas. Their grazing helps maintain grassland ecosystems. Populations face threats from hunting and habitat loss.",
+        "details": [
+        "Habitat: Grasslands and savannas",
+        "Diet: Herbivorous, grasses and shoots",
+        "Conservation Status: Least Concern",
+        "Average Lifespan: 20–25 years in the wild"
+      ]
+    }
+  ]
+}
